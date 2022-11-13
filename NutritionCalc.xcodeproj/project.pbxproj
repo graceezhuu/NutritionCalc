@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6554FC7D2921A7370074CE87 /* AddModifyIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6554FC7C2921A7370074CE87 /* AddModifyIngredients.swift */; };
+		655FB6B82926CA530002983C /* FormManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FB6B72926CA530002983C /* FormManager.swift */; };
+		655FB6BA2926CAEA0002983C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FB6B92926CAEA0002983C /* Models.swift */; };
+		655FB6BD2926D0210002983C /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655FB6BC2926D0210002983C /* PopUpWindow.swift */; };
+		65B7A1E82924227300861667 /* Ingredient Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7A1E72924227300861667 /* Ingredient Database.swift */; };
+		65B7A1EB29242CE400861667 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65B7A1E929242CE400861667 /* Model.xcdatamodeld */; };
+		65B7A1EE29242E9A00861667 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7A1ED29242E9A00861667 /* MenuRowView.swift */; };
+		65E99EE62920A38A00911AC0 /* NutritionCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E99EE52920A38A00911AC0 /* NutritionCalcApp.swift */; };
+		65E99EE82920A38A00911AC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E99EE72920A38A00911AC0 /* ContentView.swift */; };
+		65E99EEA2920A38B00911AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E99EE92920A38B00911AC0 /* Assets.xcassets */; };
+		65E99EEE2920A38B00911AC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E99EED2920A38B00911AC0 /* Preview Assets.xcassets */; };
+		65E99EF82920A38B00911AC0 /* NutritionCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E99EF72920A38B00911AC0 /* NutritionCalcTests.swift */; };
+		65E99F022920A38B00911AC0 /* NutritionCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E99F012920A38B00911AC0 /* NutritionCalcUITests.swift */; };
+		65E99F042920A38B00911AC0 /* NutritionCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E99F032920A38B00911AC0 /* NutritionCalcUITestsLaunchTests.swift */; };
+		65E99F112920A3B100911AC0 /* MenuCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E99F102920A3B100911AC0 /* MenuCalculator.swift */; };
+		65E99F132920A3C700911AC0 /* MenuItemDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E99F122920A3C700911AC0 /* MenuItemDatabase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65E99EF42920A38B00911AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E99EDA2920A38A00911AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E99EE12920A38A00911AC0;
+			remoteInfo = NutritionCalc;
+		};
+		65E99EFE2920A38B00911AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E99EDA2920A38A00911AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E99EE12920A38A00911AC0;
+			remoteInfo = NutritionCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6554FC7C2921A7370074CE87 /* AddModifyIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModifyIngredients.swift; sourceTree = "<group>"; };
+		655FB6B72926CA530002983C /* FormManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormManager.swift; sourceTree = "<group>"; };
+		655FB6B92926CAEA0002983C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		655FB6BC2926D0210002983C /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
+		65B7A1E72924227300861667 /* Ingredient Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ingredient Database.swift"; sourceTree = "<group>"; };
+		65B7A1EA29242CE400861667 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		65B7A1ED29242E9A00861667 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		65E99EE22920A38A00911AC0 /* NutritionCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E99EE52920A38A00911AC0 /* NutritionCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCalcApp.swift; sourceTree = "<group>"; };
+		65E99EE72920A38A00911AC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65E99EE92920A38B00911AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E99EEB2920A38B00911AC0 /* NutritionCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutritionCalc.entitlements; sourceTree = "<group>"; };
+		65E99EED2920A38B00911AC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65E99EF32920A38B00911AC0 /* NutritionCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E99EF72920A38B00911AC0 /* NutritionCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCalcTests.swift; sourceTree = "<group>"; };
+		65E99EFD2920A38B00911AC0 /* NutritionCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritionCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E99F012920A38B00911AC0 /* NutritionCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCalcUITests.swift; sourceTree = "<group>"; };
+		65E99F032920A38B00911AC0 /* NutritionCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65E99F102920A3B100911AC0 /* MenuCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCalculator.swift; sourceTree = "<group>"; };
+		65E99F122920A3C700911AC0 /* MenuItemDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDatabase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E99EDF2920A38A00911AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E99EF02920A38B00911AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E99EFA2920A38B00911AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655FB6BB2926CAF00002983C /* Building Environment  */ = {
+			isa = PBXGroup;
+			children = (
+				655FB6B92926CAEA0002983C /* Models.swift */,
+				655FB6B72926CA530002983C /* FormManager.swift */,
+			);
+			path = "Building Environment ";
+			sourceTree = "<group>";
+		};
+		65B7A1EC29242E7B00861667 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65B7A1ED29242E9A00861667 /* MenuRowView.swift */,
+				655FB6BC2926D0210002983C /* PopUpWindow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65E99ED92920A38A00911AC0 = {
+			isa = PBXGroup;
+			children = (
+				655FB6BB2926CAF00002983C /* Building Environment  */,
+				65E99EE42920A38A00911AC0 /* NutritionCalc */,
+				65B7A1EC29242E7B00861667 /* Views */,
+				65E99EF62920A38B00911AC0 /* NutritionCalcTests */,
+				65E99F002920A38B00911AC0 /* NutritionCalcUITests */,
+				65E99EE32920A38A00911AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65E99EE32920A38A00911AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E99EE22920A38A00911AC0 /* NutritionCalc.app */,
+				65E99EF32920A38B00911AC0 /* NutritionCalcTests.xctest */,
+				65E99EFD2920A38B00911AC0 /* NutritionCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E99EE42920A38A00911AC0 /* NutritionCalc */ = {
+			isa = PBXGroup;
+			children = (
+				65E99EE72920A38A00911AC0 /* ContentView.swift */,
+				6554FC7C2921A7370074CE87 /* AddModifyIngredients.swift */,
+				65E99F102920A3B100911AC0 /* MenuCalculator.swift */,
+				65E99F122920A3C700911AC0 /* MenuItemDatabase.swift */,
+				65B7A1E72924227300861667 /* Ingredient Database.swift */,
+				65E99EE52920A38A00911AC0 /* NutritionCalcApp.swift */,
+				65B7A1E929242CE400861667 /* Model.xcdatamodeld */,
+				65E99EE92920A38B00911AC0 /* Assets.xcassets */,
+				65E99EEB2920A38B00911AC0 /* NutritionCalc.entitlements */,
+				65E99EEC2920A38B00911AC0 /* Preview Content */,
+			);
+			path = NutritionCalc;
+			sourceTree = "<group>";
+		};
+		65E99EEC2920A38B00911AC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65E99EED2920A38B00911AC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65E99EF62920A38B00911AC0 /* NutritionCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E99EF72920A38B00911AC0 /* NutritionCalcTests.swift */,
+			);
+			path = NutritionCalcTests;
+			sourceTree = "<group>";
+		};
+		65E99F002920A38B00911AC0 /* NutritionCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65E99F012920A38B00911AC0 /* NutritionCalcUITests.swift */,
+				65E99F032920A38B00911AC0 /* NutritionCalcUITestsLaunchTests.swift */,
+			);
+			path = NutritionCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E99EE12920A38A00911AC0 /* NutritionCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E99F072920A38B00911AC0 /* Build configuration list for PBXNativeTarget "NutritionCalc" */;
+			buildPhases = (
+				65E99EDE2920A38A00911AC0 /* Sources */,
+				65E99EDF2920A38A00911AC0 /* Frameworks */,
+				65E99EE02920A38A00911AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutritionCalc;
+			productName = NutritionCalc;
+			productReference = 65E99EE22920A38A00911AC0 /* NutritionCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65E99EF22920A38B00911AC0 /* NutritionCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E99F0A2920A38B00911AC0 /* Build configuration list for PBXNativeTarget "NutritionCalcTests" */;
+			buildPhases = (
+				65E99EEF2920A38B00911AC0 /* Sources */,
+				65E99EF02920A38B00911AC0 /* Frameworks */,
+				65E99EF12920A38B00911AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E99EF52920A38B00911AC0 /* PBXTargetDependency */,
+			);
+			name = NutritionCalcTests;
+			productName = NutritionCalcTests;
+			productReference = 65E99EF32920A38B00911AC0 /* NutritionCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65E99EFC2920A38B00911AC0 /* NutritionCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E99F0D2920A38B00911AC0 /* Build configuration list for PBXNativeTarget "NutritionCalcUITests" */;
+			buildPhases = (
+				65E99EF92920A38B00911AC0 /* Sources */,
+				65E99EFA2920A38B00911AC0 /* Frameworks */,
+				65E99EFB2920A38B00911AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E99EFF2920A38B00911AC0 /* PBXTargetDependency */,
+			);
+			name = NutritionCalcUITests;
+			productName = NutritionCalcUITests;
+			productReference = 65E99EFD2920A38B00911AC0 /* NutritionCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E99EDA2920A38A00911AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					65E99EE12920A38A00911AC0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					65E99EF22920A38B00911AC0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 65E99EE12920A38A00911AC0;
+					};
+					65E99EFC2920A38B00911AC0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 65E99EE12920A38A00911AC0;
+					};
+				};
+			};
+			buildConfigurationList = 65E99EDD2920A38A00911AC0 /* Build configuration list for PBXProject "NutritionCalc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E99ED92920A38A00911AC0;
+			productRefGroup = 65E99EE32920A38A00911AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E99EE12920A38A00911AC0 /* NutritionCalc */,
+				65E99EF22920A38B00911AC0 /* NutritionCalcTests */,
+				65E99EFC2920A38B00911AC0 /* NutritionCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E99EE02920A38A00911AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E99EEE2920A38B00911AC0 /* Preview Assets.xcassets in Resources */,
+				65E99EEA2920A38B00911AC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E99EF12920A38B00911AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E99EFB2920A38B00911AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E99EDE2920A38A00911AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E99F132920A3C700911AC0 /* MenuItemDatabase.swift in Sources */,
+				65E99F112920A3B100911AC0 /* MenuCalculator.swift in Sources */,
+				655FB6BD2926D0210002983C /* PopUpWindow.swift in Sources */,
+				65B7A1E82924227300861667 /* Ingredient Database.swift in Sources */,
+				65B7A1EB29242CE400861667 /* Model.xcdatamodeld in Sources */,
+				65B7A1EE29242E9A00861667 /* MenuRowView.swift in Sources */,
+				6554FC7D2921A7370074CE87 /* AddModifyIngredients.swift in Sources */,
+				65E99EE82920A38A00911AC0 /* ContentView.swift in Sources */,
+				655FB6B82926CA530002983C /* FormManager.swift in Sources */,
+				65E99EE62920A38A00911AC0 /* NutritionCalcApp.swift in Sources */,
+				655FB6BA2926CAEA0002983C /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E99EEF2920A38B00911AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E99EF82920A38B00911AC0 /* NutritionCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E99EF92920A38B00911AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E99F042920A38B00911AC0 /* NutritionCalcUITestsLaunchTests.swift in Sources */,
+				65E99F022920A38B00911AC0 /* NutritionCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65E99EF52920A38B00911AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E99EE12920A38A00911AC0 /* NutritionCalc */;
+			targetProxy = 65E99EF42920A38B00911AC0 /* PBXContainerItemProxy */;
+		};
+		65E99EFF2920A38B00911AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E99EE12920A38A00911AC0 /* NutritionCalc */;
+			targetProxy = 65E99EFE2920A38B00911AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65E99F052920A38B00911AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65E99F062920A38B00911AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		65E99F082920A38B00911AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutritionCalc/NutritionCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritionCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = MSVT2K87X4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IBCSHL.NutritionCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65E99F092920A38B00911AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutritionCalc/NutritionCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutritionCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = MSVT2K87X4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IBCSHL.NutritionCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65E99F0B2920A38B00911AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSVT2K87X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IBCSHL.NutritionCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritionCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutritionCalc";
+			};
+			name = Debug;
+		};
+		65E99F0C2920A38B00911AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSVT2K87X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IBCSHL.NutritionCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutritionCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutritionCalc";
+			};
+			name = Release;
+		};
+		65E99F0E2920A38B00911AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSVT2K87X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IBCSHL.NutritionCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritionCalc;
+			};
+			name = Debug;
+		};
+		65E99F0F2920A38B00911AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSVT2K87X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IBCSHL.NutritionCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutritionCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E99EDD2920A38A00911AC0 /* Build configuration list for PBXProject "NutritionCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E99F052920A38B00911AC0 /* Debug */,
+				65E99F062920A38B00911AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E99F072920A38B00911AC0 /* Build configuration list for PBXNativeTarget "NutritionCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E99F082920A38B00911AC0 /* Debug */,
+				65E99F092920A38B00911AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E99F0A2920A38B00911AC0 /* Build configuration list for PBXNativeTarget "NutritionCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E99F0B2920A38B00911AC0 /* Debug */,
+				65E99F0C2920A38B00911AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E99F0D2920A38B00911AC0 /* Build configuration list for PBXNativeTarget "NutritionCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E99F0E2920A38B00911AC0 /* Debug */,
+				65E99F0F2920A38B00911AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65B7A1E929242CE400861667 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65B7A1EA29242CE400861667 /* Model.xcdatamodel */,
+			);
+			currentVersion = 65B7A1EA29242CE400861667 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65E99EDA2920A38A00911AC0 /* Project object */;
+}
