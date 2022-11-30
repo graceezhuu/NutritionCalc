@@ -16,9 +16,9 @@ struct PopUpWindow: View {
         ZStack {
             if show {
                 // PopUp background color
-                Color.black.opacity(0).edgesIgnoringSafeArea(.bottom)
+                Color.black.opacity(0)
                 // PopUp Window
-                VStack(alignment: .center, spacing: 10) {
+                VStack(alignment: .center) {
                     Text(title)
                         .frame(maxWidth: .infinity)
                         .frame(height: 85, alignment: .center)
